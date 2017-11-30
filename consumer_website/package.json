@@ -5,6 +5,6 @@
     "express" : "latest"
   },
   "scripts" : {
-    "start" : "node consumer_web_server.js"
+    "start" : "node consumer_web_server.js && python extractor.py"
   }
 }

@@ -3,7 +3,7 @@ import os
 cmdNewTab = "osascript -e \'tell application \"Terminal\" to do script \"ssh -i ~/AWS/first.pem ec2-user@"
 
 #Accesing the web server
-os.system(cmdNewTab + "ec2-13-59-212-176.us-east-2.compute.amazonaws.com\"\'")
+os.system(cmdNewTab + "ec2-13-59-208-144.us-east-2.compute.amazonaws.com\"\'")
 
 #Accessing kafka nodes
 #Zookeeper
